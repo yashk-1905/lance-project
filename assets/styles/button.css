@@ -1,0 +1,94 @@
+.button,.button svg{
+    cursor: pointer;
+    max-width: max-content;
+    width: 100%;
+}
+
+.button.--primary{
+    padding: 15px 21px;
+    border-radius: 7px;
+    background-color: var(--headerBackground);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid transparent;
+}
+
+.button.--upload{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    margin-left: 12px;
+    color: var(--headerBackground);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.button.--primary:hover{
+    background-color: #fff;
+    color: var(--headerBackground);
+    border-color: var(--headerBackground);
+}
+
+.button.--upload:hover svg{
+    transform: translateX(7px);
+}
+
+.button.--view{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--buttonColor);
+}
+
+.button.--view:hover{
+    color: var(--headerBackground);
+}
+
+.button.--download{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 10px;
+    background-color: var(--headerIconsBg);
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--headerIcons);
+    border: 2px solid transparent;
+}
+
+.button.--download:hover{
+    border-color: var(--headerIconsBg);
+    background-color: transparent;    
+}
+.button.--up{
+    position: relative;
+    z-index: 1;
+}
+.buttonUp__image{
+    min-width: 69px;
+    min-height: 61px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: none;
+}
+
+.buttonUp__image::before{
+    content: '';
+    position: absolute;
+    width: 69px;
+    height: 61px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    border-radius: 5px;
+    background-color: var(--buttonColor);
+}
+
+.button.--up:hover{
+
+}

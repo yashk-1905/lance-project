@@ -1,0 +1,55 @@
+.searchLoc .searchLoc__container{
+    max-width: max-content;
+}
+.searchLoc__input{
+    padding: 10px 84px 10px 10px;
+    color: var(--inputPlaceholder);
+    font-size: 12px;
+    border-radius: 4px;
+    background: #fff;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 3px;
+}
+.searchLoc__locations{
+    max-height: 381px;
+    overflow-y: auto;
+}
+.searchLoc__heading svg{
+    width: 22px;
+    height: 22px;
+}
+.searchLoc__heading{
+    color: var(--searchLocHeading);
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.searchLoc__tag{
+    margin-block: 12px 19px;
+}
+.searchLoc__tag p{
+    color: var(--inputPlaceholder);
+    font-size: 14px;
+}
+.searchLoc__list{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.searchLoc__list li{
+    display: flex;
+    align-items: center;
+    color: var(--searchLocHeading);
+    font-size: 14px;
+    font-weight: 500;
+    gap: 10px;
+}
+
+.searchLoc__list svg{
+    min-width: 30px;
+    min-height: 30px;
+}

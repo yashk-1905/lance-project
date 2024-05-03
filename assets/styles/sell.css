@@ -1,0 +1,10 @@
+.sell{
+    background: var(--sectionBackground);
+    margin-block: 24px;
+    padding-block: 32px;
+}
+.sell__cards{
+    display: flex;
+    gap: 14px;
+    overflow: auto;
+}
